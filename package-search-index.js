@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.truckitin.codingtest"},{"l":"com.truckitin.codingtest.models"}]
