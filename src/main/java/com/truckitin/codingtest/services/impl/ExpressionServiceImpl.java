@@ -65,7 +65,7 @@ public class ExpressionServiceImpl implements ExpressionService {
 
     @Override
     public void defineOperatorDirection(Deque<Character> stack, Character incomingOperator,
-                                         StringBuilder postfixEquation) {
+                                        StringBuilder postfixEquation) {
 
         if (stack.isEmpty() || checkBracketType(stack.peek()) == Bracket.OpeningBracket ||
                 precedenceOf(incomingOperator) > precedenceOf(stack.peek())) {
@@ -79,7 +79,9 @@ public class ExpressionServiceImpl implements ExpressionService {
              */
             do {
                 postfixEquation.append(stack.pop());
-                if(stack.peek() == null) { break; }
+                if (stack.peek() == null) {
+                    break;
+                }
             } while (precedenceOf(incomingOperator) < precedenceOf(stack.peek()));
 
         } else if (precedenceOf(incomingOperator) == precedenceOf(stack.peek())) {
@@ -93,6 +95,7 @@ public class ExpressionServiceImpl implements ExpressionService {
         Character poppedCharacter = stack.pop();
         while (poppedCharacter != '(') {
             postfixEquation.append(poppedCharacter);
+            if (stack.isEmpty()) { break; }
             poppedCharacter = stack.pop();
         }
     }
