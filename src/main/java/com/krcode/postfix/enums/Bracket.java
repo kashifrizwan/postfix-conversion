@@ -1,4 +1,4 @@
-package com.truckitin.codingtest.enums;
+package com.krcode.postfix.enums;
 
 /**
  * Author: kashif Rizwan

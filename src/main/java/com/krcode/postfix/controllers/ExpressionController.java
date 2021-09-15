@@ -1,8 +1,8 @@
-package com.truckitin.codingtest.controllers;
+package com.krcode.postfix.controllers;
 
-import com.truckitin.codingtest.models.EvaluationResult;
-import com.truckitin.codingtest.models.InputExpression;
-import com.truckitin.codingtest.services.ExpressionService;
+import com.krcode.postfix.models.EvaluationResult;
+import com.krcode.postfix.models.InputExpression;
+import com.krcode.postfix.services.ExpressionService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.truckitin.codingtest.models;
+package com.krcode.postfix.models;
 
 /**
  * Author: kashif Rizwan

@@ -1,6 +1,6 @@
-package com.truckitin.codingtest.services;
+package com.krcode.postfix.services;
 
-import com.truckitin.codingtest.enums.Bracket;
+import com.krcode.postfix.enums.Bracket;
 
 import java.util.Deque;
 

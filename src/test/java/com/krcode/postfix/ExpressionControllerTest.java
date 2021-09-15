@@ -1,8 +1,8 @@
-package com.truckitin.codingtest;
+package com.krcode.postfix;
 
-import com.truckitin.codingtest.controllers.ExpressionController;
-import com.truckitin.codingtest.models.EvaluationResult;
-import com.truckitin.codingtest.models.InputExpression;
+import com.krcode.postfix.controllers.ExpressionController;
+import com.krcode.postfix.models.EvaluationResult;
+import com.krcode.postfix.models.InputExpression;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

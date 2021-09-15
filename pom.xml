@@ -11,10 +11,10 @@
     </parent>
 
     <groupId>com.truckitin</groupId>
-    <artifactId>codingtest</artifactId>
+    <artifactId>postfix</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>codingtest</name>
-    <description>Coding Test for Truck It In</description>
+    <name>postfix</name>
+    <description>Infix to Postfix Conversion</description>
 
     <properties>
         <java.version>11</java.version>

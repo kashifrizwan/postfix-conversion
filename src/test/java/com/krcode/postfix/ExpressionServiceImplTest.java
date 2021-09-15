@@ -1,7 +1,7 @@
-package com.truckitin.codingtest;
+package com.krcode.postfix;
 
-import com.truckitin.codingtest.enums.Bracket;
-import com.truckitin.codingtest.services.impl.ExpressionServiceImpl;
+import com.krcode.postfix.enums.Bracket;
+import com.krcode.postfix.services.impl.ExpressionServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
