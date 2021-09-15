@@ -2,7 +2,7 @@ Coding Test Application
 ===
 This is a Java Spring Boot coding test for TruckItIn. This application consist of one REST API. This REST endpoint perform basic four operation calculations with brackets. However, instead of just performing the calculations, it converts the infix equation to a postfix equation using a stack and return the converted equation. In case of invalid equation, a relevant error message is returned.
 
-##Run Application
+## Run Application
 <b>API Details:</b>
 <br />
 POST http://localhost:8080/evaluateExpression
